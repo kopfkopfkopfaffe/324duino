@@ -1,0 +1,27 @@
+diff --git a/boards.txt b/boards.txt
+index 7d9c7f0..889561a 100644
+--- a/boards.txt
++++ b/boards.txt
+@@ -564,3 +564,22 @@ robotMotor.build.vid=0x2341
+ robotMotor.build.pid=0x8039
+ robotMotor.build.core=robot
+ robotMotor.build.variant=robot_motor
++
++###### 324duino
++324duino.name=324duino
++324duino.upload.protocol=arduino
++324duino.upload.maximum_size=32256
++324duino.upload.speed=115200
++
++324duino.bootloader.low_fuses=0x60
++324duino.bootloader.high_fuses=0xdc
++324duino.bootloader.extended_fuses=0xfd
++324duino.bootloader.path=optiboot
++324duino.bootloader.file=optiboot_atmega324.hex
++324duino.bootloader.unlock_bits=0x3F
++324duino.bootloader.lock_bits=0x0F
++
++324duino.build.mcu=atmega324p
++324duino.build.f_cpu=16000000L
++324duino.build.core=arduino
++324duino.build.variant=standard
