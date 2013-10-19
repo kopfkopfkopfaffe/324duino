@@ -1,4 +1,4 @@
 324duino
 ========
 
-324duino Project
+Building an Arduino compatible board for the Atmega324P in one night
